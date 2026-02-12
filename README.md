@@ -37,6 +37,20 @@ npm run dev
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
+## Deploy to GitHub Pages
+
+This project is configured for GitHub Pages with:
+
+- Relative asset paths in `vite.config.js` (`base: './'`)
+- An automated workflow in `.github/workflows/deploy.yml`
+
+To activate deployment:
+
+1. Push this repository to GitHub (branch `main`).
+2. In GitHub, go to **Settings > Pages**.
+3. Under **Build and deployment**, choose **Source: GitHub Actions**.
+4. Push changes to `main` and the site will deploy automatically.
+
 ## Components
 
 The project includes the following Inspira UI components:
